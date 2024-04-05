@@ -1,6 +1,6 @@
 # Documentation
 ### Problem Solutioning
-#### Problem
+#### Problems
 Write a program called Count Words that processes a List of Strings and applies the following rules:
 1. counts and return number of words that start with M or m
 2. return all the words longer that 5 characters
@@ -10,7 +10,7 @@ Hints:
 2. Business rules change and new one pop up all the time
 3. please don't input words from standard input
 
-#### Solution
+#### Solutions
 ##### 1. problm 1 : Make sure you implement this test like you would all your prodcution code
 ```
 solutions:
@@ -43,7 +43,23 @@ solution:
 3. go to target file
 4. run `java -jar CountWords-1.0-SNAPSHOT.jar`
 ```
+### Project Structure
+```
+src
+│   ├── main
+│   │   ├── java
+            ├── Rule
+            ├── RuleImpl
+            ├── main.java
+│   │   └── resources
+│   └── test
+│       ├── java
+│       └── resources
+├── pom.xml
 
+```
+Package `Rule` used for save all interfaces
+Pckage `RuleImpl` used for save all interface implementations
 ### Project Dependencies
 #### JUnit
 JUnit framework is foundation for developr side testing on JVM.
