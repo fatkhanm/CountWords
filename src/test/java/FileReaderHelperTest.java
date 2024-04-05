@@ -14,7 +14,7 @@ public class FileReaderHelperTest {
   @Test
   public void readFromFileSuccess() throws IOException {
     String expected = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ";
-    String actual = FileReaderHelper.readFromFile("src/main/resources/test.txt");
+    String actual = FileReaderHelper.readFromFile("src/test/resources/test.txt");
     Assert.assertEquals(expected,actual);
 
   }
