@@ -1,33 +1,10 @@
 # Documentation
-### How to Run
-#### Run Directly to the project
-```
-1. clone this repository
-2. go to the main.java
-3. run main.java
-```
-#### Run From JAR
-```
-1. clone this repository
-2. type `mvn clean pacage` on your terminal or mvn project
-3. go to target file
-4. run `java -jar CountWords-1.0-SNAPSHOT.jar`
-```
-
-### Project Dependencies
-#### JUnit
-JUnit framework is foundation for developr side testing on JVM.
-In this project JVM used for testing the implementation of rule to makes sure the rule works properly
-
-#### Maven Plugin
-A package contains Maven Plugins developed by Apache Maven Project to provide additional functionality to Maven during the build process.
-In this project, this package used to created JAR file.
-
 ### Problem Solutioning
 #### Problem
 Write a program called Count Words that processes a List of Strings and applies the following rules:
 1. counts and return number of words that start with M or m
 2. return all the words longer that 5 characters
+
 Hints:
 1. Make sure you implement this test like you would all your prodcution code
 2. Business rules change and new one pop up all the time
@@ -52,5 +29,34 @@ solutions:
 solution:
 1. create helper class to read file from path
 ```
+### How to Run
+#### Run Directly to the project
+```
+1. clone this repository
+2. go to the main.java
+3. run main.java
+```
+#### Run From JAR
+```
+1. clone this repository
+2. type `mvn clean pacage` on your terminal or mvn project
+3. go to target file
+4. run `java -jar CountWords-1.0-SNAPSHOT.jar`
+```
 
+### Project Dependencies
+#### JUnit
+JUnit framework is foundation for developr side testing on JVM.
+In this project JVM used for testing the implementation of rule to makes sure the rule works properly
 
+#### Maven Plugin
+A package contains Maven Plugins developed by Apache Maven Project to provide additional functionality to Maven during the build process.
+In this project, this package used to created JAR file.
+
+### Colaborator
+```
+@fatkhanmasruri as current github account
+@fatkhanm as second account
+susan.pang@csgi.com 
+michael.hanrahan@csgi.com
+```
